@@ -25,9 +25,9 @@
       "required": true
     },
     "host": {
+      "via": "hostedEvents",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "hostedEvents"
+      "model": "user"
     },
     "attendances": {
       "via": "event",

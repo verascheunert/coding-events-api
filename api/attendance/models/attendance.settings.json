@@ -14,9 +14,9 @@
       "via": "attendances"
     },
     "user": {
+      "via": "attendances",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "attendances"
+      "model": "user"
     }
   }
 }
